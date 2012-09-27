@@ -104,7 +104,12 @@ p {
   margin: 10px 0 15px 0;
 }
 
-footer p {
+footer ul li {
+  padding: 0;
+  list-style: none;
+}
+
+footer p, footer li {
   color: #f2f2f2;
 }
 
