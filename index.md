@@ -19,6 +19,4 @@ Something
 -->
 
 ### Contact me
-I'm interested in freelance projects all over the world. If you have a project you think I may be interested in, please get in touch using this form.
-
-{% include contact_form.html %}
+I'm interested in freelance projects all over the world. If you have a project you think I may be interested in, please <a class="qtmodal" title="Get in touch" href="http://www.foxyform.com/form.php?id=312181&amp;sec_hash=7940077203a">get in touch</a>.
