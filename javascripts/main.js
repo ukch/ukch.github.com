@@ -1,4 +1,10 @@
 $(function() {
+    // Make external links open in new window
+    $(document.links).filter(function() {
+        return this.hostname !== window.location.hostname;
+    }).attr('target', '_blank');
+
+    // Set up modal QTips
     $(".qtmodal").click(function(e) {
         if (! $(this).data("qtip")) {
             $("<iframe />")
